@@ -5,11 +5,12 @@
 	"name": "Fix Horizontal Camera Lag",
 	"description": "Disconnects the horizontal camera movement from the entity you are riding, eliminating the lag when looking around and riding something.\nFix for MC-259512\n\nWarning: use this at your own risk on multiplayer servers. In most cases you should be fine but this mod may give you a slight advantage because of the nature of what it does. Check with the server owner before using. I am not responsible for any bans given by using this mod.",
 	"authors": [
-		"Enchanted_Ga,es"
+		"Enchanted_Games"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Enchanted-Games/fix-horizontal-camera-lag",
+		"sources": "https://github.com/Enchanted-Games/fix-horizontal-camera-lag",
+		"issues": "https://github.com/Enchanted-Games/fix-horizontal-camera-lag/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/eg_fix_horizontal_camera_lag/icon.png",
