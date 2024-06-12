@@ -12,7 +12,7 @@
 		"sources": "https://github.com/Enchanted-Games/fix-horizontal-camera-lag",
 		"issues": "https://github.com/Enchanted-Games/fix-horizontal-camera-lag/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "CC BY-NC 4.0",
 	"icon": "assets/eg_fix_horizontal_camera_lag/icon.png",
 	"environment": "*",
 	"entrypoints": {
