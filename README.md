@@ -1,5 +1,5 @@
 # Fix Horizontal Camera Lag
-Disconnects the horizontal camera movement from the entity you are riding, eliminating the lag when looking around and riding something (see video (video coming soon)).
+Disconnects the horizontal camera movement from the entity you are riding, eliminating the lag when looking around and riding something ([see youtube video](https://youtu.be/EGiL2VORXjc)). Fully client side
 
 Fix for MC-259512
 
