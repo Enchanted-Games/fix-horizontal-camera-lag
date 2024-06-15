@@ -3,7 +3,7 @@
 	"package": "games.enchanted.fixhorizontalcameralag.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-      "ExampleClientMixin"
+      "LivingEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
