@@ -1,0 +1,9 @@
+{
+  "eg_fix_horizontal_camera_lag.configScreen.title": "Fix Horizontal Camera Lag Config",
+
+  "eg_fix_horizontal_camera_lag.option.modEnabled": "Riding an Entity Fix",
+  "eg_fix_horizontal_camera_lag.option.modEnabled.tooltip": "Removes the lag when moving the camera while riding an entity. This works by disconnecting the LocalPlayer camera rotation from the entity you are riding",
+
+  "eg_fix_horizontal_camera_lag.option.debugLogs": "Debug Logs",
+  "eg_fix_horizontal_camera_lag.option.debugLogs.tooltip": "Prints some extra debugging info to the console"
+}
