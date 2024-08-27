@@ -3,9 +3,9 @@ Disconnects the horizontal camera movement from the entity you are riding, elimi
 
 Fix for MC-259512
 
-## Other loaders
+## Mod loaders
 
-I'll probably port this to NeoForge at some point but for now it's fabric only
+This mod is available for Fabric and NeoForge
 
 ## Multiplayer Warning
 
