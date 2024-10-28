@@ -48,6 +48,7 @@ public class ConfigScreen extends Screen {
 
     @Override
     public void render(@NotNull GuiGraphics context, int mouseX, int mouseY, float delta) {
+        super.renderBackground(context);
         super.render(context, mouseX, mouseY, delta);
         context.drawCenteredString(font, title, width / 2, 30, 0xFFFFFF);
     }
