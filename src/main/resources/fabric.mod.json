@@ -13,7 +13,7 @@
   },
   "license": "${license}",
   "icon": "${icon}",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "${group}.${id}.fabric.FabricEntry"
