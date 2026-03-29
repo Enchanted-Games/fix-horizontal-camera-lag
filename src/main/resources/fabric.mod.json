@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": [
+    "Enchanted_Games"
+  ],
+  "contact": {
+    "sources": "${source_url}",
+    "issues": "${issue_tracker}"
+  },
+  "license": "${license}",
+  "icon": "${icon}",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "${group}.${id}.fabric.FabricEntry"
+    ],
+    "modmenu": [
+      "${group}.${id}.fabric.ModMenuIntegration"
+    ]
+  },
+  ${accesswidener_field}
+  "mixins": [
+    {
+      "config": "${id}.mixins.json"
+    }
+  ],
+  "depends": {
+    "minecraft": "${minecraft}",
+    "fabricloader": "${fabric_loader_dep_str}",
+    "fabric-api": "${fabric_api_dep_str}"
+  }
+}
