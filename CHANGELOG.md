@@ -1,2 +1,4 @@
-# 1.0
-// TODO: Write changelog before publishing your mod
+# 1.2.0
+
+- Updated to 26.1
+- Cleaned up the config system
