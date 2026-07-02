@@ -47,7 +47,7 @@ public class ConfigScreen extends Screen {
     @Override
     public void onClose() {
         saveConfigOptions();
-        minecraft.setScreen(parentScreen);
+        minecraft.gui.setScreen(parentScreen);
     }
 
     private void saveConfigOptions() {
@@ -59,9 +59,9 @@ public class ConfigScreen extends Screen {
         Component buttonContent = Component.translatable(getTranslationKeyForOption(configKey));
         Component buttonTooltipText = Component.translatable(getTranslationKeyForOption(configKey) + ".tooltip");
 
-        return Button.builder(CommonComponents.optionNameValue(buttonContent, trueFalseOptionStatus(value.getValue())),
+        return Button.builder(CommonComponents.optionNameValue(buttonContent, trueFalseOptionStatus(value.getPendingOrCurrentValue())),
             button -> {
-                boolean newValue = !value.getValue();
+                boolean newValue = !value.getPendingOrCurrentValue();
                 value.setPendingValue(newValue);
 
                 Component buttonValue = trueFalseOptionStatus(newValue);

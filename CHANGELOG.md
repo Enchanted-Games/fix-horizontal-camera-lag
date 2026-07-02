@@ -1,3 +1,4 @@
-# 1.2.1
+# 1.2.2
 
-- Updated minecraft version constraint to prevent the mod loading on 26.2
+- Ported to 26.2
+- Fixed config button not toggling properly until closing and re-opening the screen
