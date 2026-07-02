@@ -1,4 +1,3 @@
-# 1.2.0
+# 1.2.1
 
-- Updated to 26.1
-- Cleaned up the config system
+- Updated minecraft version constraint to prevent the mod loading on 26.2
